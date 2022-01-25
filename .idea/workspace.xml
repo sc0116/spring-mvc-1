@@ -4,79 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb2ce82-df3d-482d-abc4-deab1a3994f8" name="Changes" comment="refactor: 스프링 MVC 실용적인 방식 - v3">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/ServletApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/ServletInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/HelloData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/request/RequestBodyJsonServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/response/ResponseHeaderServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/response/ResponseHtmlServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/response/ResponseJsonServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/domain/member/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/domain/member/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/ModelView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/MyView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/ControllerV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/FrontControllerServletV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberFormControllerV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberListControllerV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v1/controller/MemberSaveControllerV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/ControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/FrontControllerServletV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberFormControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberListControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v2/controller/MemberSaveControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/ControllerV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/FrontControllerServletV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberFormControllerV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberListControllerV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v3/controller/MemberSaveControllerV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/ControllerV4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/FrontControllerServletV4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberFormControllerV4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberListControllerV4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v4/controller/MemberSaveControllerV4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v5/FrontControllerServletV5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v5/MyHandlerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v5/adapter/ControllerV3HandlerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/frontcontroller/v5/adapter/ControllerV4HandlerAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberFormServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberListServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberSaveServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/old/MyHttpRequestHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/old/OldController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/v1/SpringMemberFormControllerV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/v1/SpringMemberListControllerV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/v1/SpringMemberSaveControllerV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/v2/SpringMemberControllerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/servlet/web/springmvc/v3/SpringMemberControllerV3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new-form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save-result.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basic/hello-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/members.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/members/new-form.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/members/save.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/servlet/ServletApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" beforeDir="false" />
+    <list default="true" id="cbb2ce82-df3d-482d-abc4-deab1a3994f8" name="Changes" comment="style: 디렉터리 이동">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +137,7 @@
       <workItem from="1642997179892" duration="1208000" />
       <workItem from="1643008761777" duration="8154000" />
       <workItem from="1643103341891" duration="82000" />
+      <workItem from="1643103504011" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 프로젝트 초기 설정">
       <created>1642518830283</created>
@@ -363,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643016300146</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="style: 디렉터리 이동">
+      <created>1643103942733</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1643103942733</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +341,7 @@
     <MESSAGE value="feat: 스프링 MVC - v1" />
     <MESSAGE value="feat: 스프링 MVC 컨트롤러 통합 - v2" />
     <MESSAGE value="refactor: 스프링 MVC 실용적인 방식 - v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: 스프링 MVC 실용적인 방식 - v3" />
+    <MESSAGE value="style: 디렉터리 이동" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: 디렉터리 이동" />
   </component>
 </project>
